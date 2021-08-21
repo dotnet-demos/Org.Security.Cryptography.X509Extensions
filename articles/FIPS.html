@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>About Federal Information Processing Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="About Federal Information Processing Standard ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="about-federal-information-processing-standard">About Federal Information Processing Standard</h1>
+
+<p>Is this package FIPS compliant? Depends.</p>
+<h3 id="net-core-federal-information-processing-standard-fips-compliance">.NET Core Federal Information Processing Standard (FIPS) compliance</h3>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/standard/security/fips-compliance">.NET Core and FIPS</a></li>
+<li>Does not enforce the use of FIPS Approved algorithms or key sizes in .NET Core apps.</li>
+<li>The developer is responsible for ensuring that non-compliant FIPS algorithms aren't used.</li>
+</ul>
+<h3 id="microsofts-approach-to-fips-140-2-validation">Microsoft’s approach to FIPS 140-2 validation</h3>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/fips-140-validation">Microsoft’s approach to FIPS 140-2 validation</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/fips-140-validation#using-windows-in-a-fips-140-2-approved-mode-of-operation">Using Windows in a FIPS 140-2 approved mode</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing">Use FIPS compliant algorithms for encryption, hashing, and signing</a></li>
+<li><a href="https://docs.microsoft.com/en-us/archive/blogs/secguide/why-were-not-recommending-fips-mode-anymore">Why We’re Not Recommending FIPS Mode Anymore</a></li>
+</ul>
+<h3 id="windows-fips-mode">Windows FIPS Mode</h3>
+<blockquote>
+<p>This policy setting determines whether the TLS/SSL security provider supports only the FIPS-compliant strong cipher suite known as TLS_RSA_WITH_3DES_EDE_CBC_SHA, which means that</p>
+<ul>
+<li>the provider only supports the TLS protocol as a client computer and as a server, if applicable.</li>
+<li>uses only the Triple Data Encryption Standard (3DES) encryption algorithm for the TLS traffic encryption,</li>
+<li>only the Rivest-Shamir-Adleman (RSA) public key algorithm for the TLS key exchange and authentication,</li>
+<li>and only the Secure Hash Algorithm version 1 (SHA-1) hashing algorithm for the TLS hashing requirements.</li>
+</ul>
+</blockquote>
+<h2 id="more">More</h2>
+<p>Credit: <a href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/521b669d-09d8-46c9-812b-843b611f42e4/aescryptoserviceprovider-and-fips-mode">AesCryptoServiceProvider and FIPS mode</a></p>
+<p>Aes algorithm (as in &quot;the algorithm&quot;) is FIPS 140-2 compliant.
+Aes algorithm implementation by Microsoft (Enhanced Cryptographic Provider in rsaenh.dll) is also FIPS 140-2 compliant.
+System.Security.Cryptography.AesCryptoServiceProvider uses rsaenh.dll CSP, hence is its also FIPS 140-2 compliant.</p>
+<p>As an example, AesManaged DOESN'T use rsaenh.dll CSP.
+AesManaged checks for FIPS mode and will throw an exception is FIPS compliance is turned on.</p>
+<p>Strictly speaking it's not the AesCryptoServiceProvider or AesManaged that are FIPS 140-2 compliant.
+Its the underlying libraries accessed through the CAPI (like the Enhanced Cryptographic Provider in rsaenh.dll).
+All other .NET CSPs, e.g. AesManaged or MD5CryptoServiceProvider, that do not rely on this libraries are not compliant.</p>
+<p>The security policy FIPS mode simply turns on a flag in the registry, nothing more<br>
+REF: HKLM\SYSTEM\CurrentControlSet\Control\Lsa\fipsalgorithmpolicy)</p>
+<p>The AesManaged class for example checks the flag in its constructor and
+if it's set it simply throws an exception that tells the user that this is not a FIPS compliant algorithm,
+because it doesn't call into the compliant libraries.</p>
+<p>Turning the flag in the registry ON suggestes the use of FIPS compliant algorithms.
+But does not trigger any other system-side processing.
+By enabling this flag, you'll get an exception every single time an application attempts to use a non-compliant algorithm.</p>
+<p>Since rsaenh.dll is FIPS compliant, the AesCryptoServiceProvider will not throw such an exception.
+After all, it is only a thin wrapper around the CAPI (advapi32.dll, crypt32.dll).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/articles/FIPS.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
