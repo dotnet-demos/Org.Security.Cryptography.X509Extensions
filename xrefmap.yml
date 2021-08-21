@@ -13,11 +13,11 @@ references:
   commentId: T:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions
   fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions
   nameWithType: X509Certificate2StreamDecryptionExtensions
-- uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(X509Certificate2,Stream,Stream,System.String)
+- uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String)
   name: DecryptStream(X509Certificate2, Stream, Stream, String)
-  href: api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_X509Certificate2_Stream_Stream_System_String_
-  commentId: M:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(X509Certificate2,Stream,Stream,System.String)
-  fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(X509Certificate2, Stream, Stream, System.String)
+  href: api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_
+  commentId: M:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String)
+  fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2, System.IO.Stream, System.IO.Stream, System.String)
   nameWithType: X509Certificate2StreamDecryptionExtensions.DecryptStream(X509Certificate2, Stream, Stream, String)
 - uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream*
   name: DecryptStream
@@ -26,17 +26,17 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream
   nameWithType: X509Certificate2StreamDecryptionExtensions.DecryptStream
-- uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2,Stream,Stream,System.Boolean,System.String)
+- uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.Boolean,System.String)
   name: DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, Boolean, String)
-  href: api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_X509Certificate2_Stream_Stream_System_Boolean_System_String_
-  commentId: M:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2,Stream,Stream,System.Boolean,System.String)
-  fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, System.Boolean, System.String)
+  href: api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_Boolean_System_String_
+  commentId: M:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.Boolean,System.String)
+  fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2, System.IO.Stream, System.IO.Stream, System.Boolean, System.String)
   nameWithType: X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, Boolean, String)
-- uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2,Stream,Stream,TimeSpan,System.String)
+- uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.TimeSpan,System.String)
   name: DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, TimeSpan, String)
-  href: api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_X509Certificate2_Stream_Stream_TimeSpan_System_String_
-  commentId: M:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2,Stream,Stream,TimeSpan,System.String)
-  fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, TimeSpan, System.String)
+  href: api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_TimeSpan_System_String_
+  commentId: M:Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.TimeSpan,System.String)
+  fullName: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2, System.IO.Stream, System.IO.Stream, System.TimeSpan, System.String)
   nameWithType: X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, TimeSpan, String)
 - uid: Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation*
   name: DecryptStreamWithTimestampValidation
@@ -51,11 +51,11 @@ references:
   commentId: T:Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions
   fullName: Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions
   nameWithType: X509Certificate2StreamEncryptionExtensions
-- uid: Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream(X509Certificate2,Stream,Stream,System.Boolean,System.String,System.Int32,System.Int32)
+- uid: Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.Boolean,System.String,System.Int32,System.Int32)
   name: EncryptStream(X509Certificate2, Stream, Stream, Boolean, String, Int32, Int32)
-  href: api/Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamEncryptionExtensions_EncryptStream_X509Certificate2_Stream_Stream_System_Boolean_System_String_System_Int32_System_Int32_
-  commentId: M:Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream(X509Certificate2,Stream,Stream,System.Boolean,System.String,System.Int32,System.Int32)
-  fullName: Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream(X509Certificate2, Stream, Stream, System.Boolean, System.String, System.Int32, System.Int32)
+  href: api/Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.html#Org_Security_Cryptography_X509Certificate2StreamEncryptionExtensions_EncryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_Boolean_System_String_System_Int32_System_Int32_
+  commentId: M:Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.Boolean,System.String,System.Int32,System.Int32)
+  fullName: Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2, System.IO.Stream, System.IO.Stream, System.Boolean, System.String, System.Int32, System.Int32)
   nameWithType: X509Certificate2StreamEncryptionExtensions.EncryptStream(X509Certificate2, Stream, Stream, Boolean, String, Int32, Int32)
 - uid: Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.EncryptStream*
   name: EncryptStream
@@ -70,13 +70,13 @@ references:
   commentId: T:Org.Security.Cryptography.X509CertificateBasedDecryptor
   fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor
   nameWithType: X509CertificateBasedDecryptor
-- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String,Func{System.String,X509Certificate2})
+- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2})
   name: DecryptBase64EncodedString(String, Func<String, X509Certificate2>)
-  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptBase64EncodedString_System_String_Func_System_String_X509Certificate2__
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String,Func{System.String,X509Certificate2})
+  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptBase64EncodedString_System_String_System_Func_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2})
   name.vb: DecryptBase64EncodedString(String, Func(Of String, X509Certificate2))
-  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String, Func<System.String, X509Certificate2>)
-  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String, Func(Of System.String, X509Certificate2))
+  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String, System.Func<System.String, System.Security.Cryptography.X509Certificates.X509Certificate2>)
+  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString(System.String, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2))
   nameWithType: X509CertificateBasedDecryptor.DecryptBase64EncodedString(String, Func<String, X509Certificate2>)
   nameWithType.vb: X509CertificateBasedDecryptor.DecryptBase64EncodedString(String, Func(Of String, X509Certificate2))
 - uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString*
@@ -86,13 +86,13 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedString
   nameWithType: X509CertificateBasedDecryptor.DecryptBase64EncodedString
-- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String,Func{System.String,X509Certificate2})
+- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2})
   name: DecryptBase64EncodedStringWithTimestampValidation(String, Func<String, X509Certificate2>)
-  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptBase64EncodedStringWithTimestampValidation_System_String_Func_System_String_X509Certificate2__
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String,Func{System.String,X509Certificate2})
+  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptBase64EncodedStringWithTimestampValidation_System_String_System_Func_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2})
   name.vb: DecryptBase64EncodedStringWithTimestampValidation(String, Func(Of String, X509Certificate2))
-  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, Func<System.String, X509Certificate2>)
-  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, Func(Of System.String, X509Certificate2))
+  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, System.Func<System.String, System.Security.Cryptography.X509Certificates.X509Certificate2>)
+  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2))
   nameWithType: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(String, Func<String, X509Certificate2>)
   nameWithType.vb: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(String, Func(Of String, X509Certificate2))
 - uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation*
@@ -102,13 +102,13 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation
   nameWithType: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation
-- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(Stream,Stream,Func{System.String,X509Certificate2},System.String)
+- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(System.IO.Stream,System.IO.Stream,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.String)
   name: DecryptStream(Stream, Stream, Func<String, X509Certificate2>, String)
-  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptStream_Stream_Stream_Func_System_String_X509Certificate2__System_String_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(Stream,Stream,Func{System.String,X509Certificate2},System.String)
+  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptStream_System_IO_Stream_System_IO_Stream_System_Func_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__System_String_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(System.IO.Stream,System.IO.Stream,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.String)
   name.vb: DecryptStream(Stream, Stream, Func(Of String, X509Certificate2), String)
-  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(Stream, Stream, Func<System.String, X509Certificate2>, System.String)
-  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(Stream, Stream, Func(Of System.String, X509Certificate2), System.String)
+  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(System.IO.Stream, System.IO.Stream, System.Func<System.String, System.Security.Cryptography.X509Certificates.X509Certificate2>, System.String)
+  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream(System.IO.Stream, System.IO.Stream, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2), System.String)
   nameWithType: X509CertificateBasedDecryptor.DecryptStream(Stream, Stream, Func<String, X509Certificate2>, String)
   nameWithType.vb: X509CertificateBasedDecryptor.DecryptStream(Stream, Stream, Func(Of String, X509Certificate2), String)
 - uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream*
@@ -118,22 +118,22 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStream
   nameWithType: X509CertificateBasedDecryptor.DecryptStream
-- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream,Stream,Func{System.String,X509Certificate2},System.String)
+- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream,System.IO.Stream,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.String)
   name: DecryptStreamWithTimestampValidation(Stream, Stream, Func<String, X509Certificate2>, String)
-  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptStreamWithTimestampValidation_Stream_Stream_Func_System_String_X509Certificate2__System_String_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream,Stream,Func{System.String,X509Certificate2},System.String)
+  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptStreamWithTimestampValidation_System_IO_Stream_System_IO_Stream_System_Func_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__System_String_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream,System.IO.Stream,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.String)
   name.vb: DecryptStreamWithTimestampValidation(Stream, Stream, Func(Of String, X509Certificate2), String)
-  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func<System.String, X509Certificate2>, System.String)
-  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func(Of System.String, X509Certificate2), System.String)
+  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream, System.IO.Stream, System.Func<System.String, System.Security.Cryptography.X509Certificates.X509Certificate2>, System.String)
+  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream, System.IO.Stream, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2), System.String)
   nameWithType: X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func<String, X509Certificate2>, String)
   nameWithType.vb: X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func(Of String, X509Certificate2), String)
-- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream,Stream,Func{System.String,X509Certificate2},TimeSpan,System.String)
+- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream,System.IO.Stream,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.TimeSpan,System.String)
   name: DecryptStreamWithTimestampValidation(Stream, Stream, Func<String, X509Certificate2>, TimeSpan, String)
-  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptStreamWithTimestampValidation_Stream_Stream_Func_System_String_X509Certificate2__TimeSpan_System_String_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream,Stream,Func{System.String,X509Certificate2},TimeSpan,System.String)
+  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptStreamWithTimestampValidation_System_IO_Stream_System_IO_Stream_System_Func_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__System_TimeSpan_System_String_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream,System.IO.Stream,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.TimeSpan,System.String)
   name.vb: DecryptStreamWithTimestampValidation(Stream, Stream, Func(Of String, X509Certificate2), TimeSpan, String)
-  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func<System.String, X509Certificate2>, TimeSpan, System.String)
-  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func(Of System.String, X509Certificate2), TimeSpan, System.String)
+  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream, System.IO.Stream, System.Func<System.String, System.Security.Cryptography.X509Certificates.X509Certificate2>, System.TimeSpan, System.String)
+  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(System.IO.Stream, System.IO.Stream, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2), System.TimeSpan, System.String)
   nameWithType: X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func<String, X509Certificate2>, TimeSpan, String)
   nameWithType.vb: X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation(Stream, Stream, Func(Of String, X509Certificate2), TimeSpan, String)
 - uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptStreamWithTimestampValidation*
@@ -149,11 +149,11 @@ references:
   commentId: T:Org.Security.Cryptography.X509CertificateBasedEncryptor
   fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor
   nameWithType: X509CertificateBasedEncryptor
-- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(X509Certificate2,Stream,Stream,System.String,System.Int32,System.Int32)
+- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String,System.Int32,System.Int32)
   name: EncryptStream(X509Certificate2, Stream, Stream, String, Int32, Int32)
-  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(X509Certificate2,Stream,Stream,System.String,System.Int32,System.Int32)
-  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(X509Certificate2, Stream, Stream, System.String, System.Int32, System.Int32)
+  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String,System.Int32,System.Int32)
+  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2, System.IO.Stream, System.IO.Stream, System.String, System.Int32, System.Int32)
   nameWithType: X509CertificateBasedEncryptor.EncryptStream(X509Certificate2, Stream, Stream, String, Int32, Int32)
 - uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream*
   name: EncryptStream
@@ -162,11 +162,11 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream
   nameWithType: X509CertificateBasedEncryptor.EncryptStream
-- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(X509Certificate2,Stream,Stream,System.String,System.Int32,System.Int32)
+- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String,System.Int32,System.Int32)
   name: EncryptStreamWithTimestamp(X509Certificate2, Stream, Stream, String, Int32, Int32)
-  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(X509Certificate2,Stream,Stream,System.String,System.Int32,System.Int32)
-  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(X509Certificate2, Stream, Stream, System.String, System.Int32, System.Int32)
+  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String,System.Int32,System.Int32)
+  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2, System.IO.Stream, System.IO.Stream, System.String, System.Int32, System.Int32)
   nameWithType: X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(X509Certificate2, Stream, Stream, String, Int32, Int32)
 - uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp*
   name: EncryptStreamWithTimestamp
@@ -175,11 +175,11 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp
   nameWithType: X509CertificateBasedEncryptor.EncryptStreamWithTimestamp
-- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(X509Certificate2,System.String,System.String,System.Int32,System.Int32)
+- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)
   name: EncryptStringToBase64(X509Certificate2, String, String, Int32, Int32)
-  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_X509Certificate2_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(X509Certificate2,System.String,System.String,System.Int32,System.Int32)
-  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(X509Certificate2, System.String, System.String, System.Int32, System.Int32)
+  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)
+  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(System.Security.Cryptography.X509Certificates.X509Certificate2, System.String, System.String, System.Int32, System.Int32)
   nameWithType: X509CertificateBasedEncryptor.EncryptStringToBase64(X509Certificate2, String, String, Int32, Int32)
 - uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64*
   name: EncryptStringToBase64
@@ -188,11 +188,11 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64
   nameWithType: X509CertificateBasedEncryptor.EncryptStringToBase64
-- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(X509Certificate2,System.String,System.String,System.Int32,System.Int32)
+- uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)
   name: EncryptStringToBase64WithTimestamp(X509Certificate2, String, String, Int32, Int32)
-  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_X509Certificate2_System_String_System_String_System_Int32_System_Int32_
-  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(X509Certificate2,System.String,System.String,System.Int32,System.Int32)
-  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(X509Certificate2, System.String, System.String, System.Int32, System.Int32)
+  href: api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html#Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)
+  fullName: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2, System.String, System.String, System.Int32, System.Int32)
   nameWithType: X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(X509Certificate2, String, String, Int32, Int32)
 - uid: Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp*
   name: EncryptStringToBase64WithTimestamp
@@ -207,13 +207,13 @@ references:
   commentId: T:Org.Security.Cryptography.X509SignatureExtensions
   fullName: Org.Security.Cryptography.X509SignatureExtensions
   nameWithType: X509SignatureExtensions
-- uid: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(X509Certificate2,System.Byte[])
+- uid: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[])
   name: CreateSignature(X509Certificate2, Byte[])
-  href: api/Org.Security.Cryptography.X509SignatureExtensions.html#Org_Security_Cryptography_X509SignatureExtensions_CreateSignature_X509Certificate2_System_Byte___
-  commentId: M:Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(X509Certificate2,System.Byte[])
+  href: api/Org.Security.Cryptography.X509SignatureExtensions.html#Org_Security_Cryptography_X509SignatureExtensions_CreateSignature_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Byte___
+  commentId: M:Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[])
   name.vb: CreateSignature(X509Certificate2, Byte())
-  fullName: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(X509Certificate2, System.Byte[])
-  fullName.vb: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(X509Certificate2, System.Byte())
+  fullName: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Byte[])
+  fullName.vb: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Byte())
   nameWithType: X509SignatureExtensions.CreateSignature(X509Certificate2, Byte[])
   nameWithType.vb: X509SignatureExtensions.CreateSignature(X509Certificate2, Byte())
 - uid: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature*
@@ -223,13 +223,13 @@ references:
   isSpec: "True"
   fullName: Org.Security.Cryptography.X509SignatureExtensions.CreateSignature
   nameWithType: X509SignatureExtensions.CreateSignature
-- uid: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(X509Certificate2,System.Byte[],System.Byte[])
+- uid: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[],System.Byte[])
   name: VerifySignature(X509Certificate2, Byte[], Byte[])
-  href: api/Org.Security.Cryptography.X509SignatureExtensions.html#Org_Security_Cryptography_X509SignatureExtensions_VerifySignature_X509Certificate2_System_Byte___System_Byte___
-  commentId: M:Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(X509Certificate2,System.Byte[],System.Byte[])
+  href: api/Org.Security.Cryptography.X509SignatureExtensions.html#Org_Security_Cryptography_X509SignatureExtensions_VerifySignature_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Byte___System_Byte___
+  commentId: M:Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[],System.Byte[])
   name.vb: VerifySignature(X509Certificate2, Byte(), Byte())
-  fullName: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(X509Certificate2, System.Byte[], System.Byte[])
-  fullName.vb: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(X509Certificate2, System.Byte(), System.Byte())
+  fullName: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Byte[], System.Byte[])
+  fullName.vb: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature(System.Security.Cryptography.X509Certificates.X509Certificate2, System.Byte(), System.Byte())
   nameWithType: X509SignatureExtensions.VerifySignature(X509Certificate2, Byte[], Byte[])
   nameWithType.vb: X509SignatureExtensions.VerifySignature(X509Certificate2, Byte(), Byte())
 - uid: Org.Security.Cryptography.X509SignatureExtensions.VerifySignature*

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class X509Certificate2StreamDecryptionExtensions
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,23 +80,47 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">X509Certificate2StreamDecryptionExtensions</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Org.Security.Cryptography.html">Org.Security.Cryptography</a></h6>
   <h6><strong>Assembly</strong>: Org.Security.Cryptography.X509Extensions.dll</h6>
   <h5 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class X509Certificate2StreamDecryptionExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class X509Certificate2StreamDecryptionExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_X509Certificate2_Stream_Stream_System_String_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(X509Certificate2%2CStream%2CStream%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509Certificate2StreamDecryptionExtensions.cs/#L18">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream*"></a>
-  <h4 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_X509Certificate2_Stream_Stream_System_String_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(X509Certificate2,Stream,Stream,System.String)">DecryptStream(X509Certificate2, Stream, Stream, String)</h4>
+  <h4 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String)">DecryptStream(X509Certificate2, Stream, Stream, String)</h4>
   <div class="markdown level1 summary"><p>The X509 Certificate private key serves as KeyEncryptionKey (KEK).
 Reads and decrypts the Encrypted DataEncryptionKey and Encrypted IV using the KEK.
 Decrypts the data using the DataEncryptionKey and IV.
@@ -105,7 +129,7 @@ NOTE: The InputStream will be disposed at the end of this call.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DecryptStream(this X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, string dataEncryptionAlgorithmName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DecryptStream(this X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, string dataEncryptionAlgorithmName = &quot;Aes&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,17 +142,17 @@ NOTE: The InputStream will be disposed at the end of this call.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">inputStream</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">outputStream</span></td>
         <td></td>
       </tr>
@@ -141,18 +165,18 @@ NOTE: The InputStream will be disposed at the end of this call.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_X509Certificate2_Stream_Stream_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2%2CStream%2CStream%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509Certificate2StreamDecryptionExtensions.cs/#L25">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation*"></a>
-  <h4 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_X509Certificate2_Stream_Stream_System_Boolean_System_String_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2,Stream,Stream,System.Boolean,System.String)">DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, Boolean, String)</h4>
+  <h4 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_Boolean_System_String_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.Boolean,System.String)">DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, Boolean, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DecryptStreamWithTimestampValidation(this X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, bool validateTimestamp, string dataEncryptionAlgorithmName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DecryptStreamWithTimestampValidation(this X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, bool validateTimestamp, string dataEncryptionAlgorithmName = &quot;Aes&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,17 +189,17 @@ NOTE: The InputStream will be disposed at the end of this call.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">inputStream</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">outputStream</span></td>
         <td></td>
       </tr>
@@ -193,18 +217,18 @@ NOTE: The InputStream will be disposed at the end of this call.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_X509Certificate2_Stream_Stream_TimeSpan_System_String_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2%2CStream%2CStream%2CTimeSpan%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_TimeSpan_System_String_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.TimeSpan%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509Certificate2StreamDecryptionExtensions.cs/#L45">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation*"></a>
-  <h4 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_X509Certificate2_Stream_Stream_TimeSpan_System_String_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(X509Certificate2,Stream,Stream,TimeSpan,System.String)">DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, TimeSpan, String)</h4>
+  <h4 id="Org_Security_Cryptography_X509Certificate2StreamDecryptionExtensions_DecryptStreamWithTimestampValidation_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_TimeSpan_System_String_" data-uid="Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.DecryptStreamWithTimestampValidation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.TimeSpan,System.String)">DecryptStreamWithTimestampValidation(X509Certificate2, Stream, Stream, TimeSpan, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DecryptStreamWithTimestampValidation(this X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, TimeSpan lifeSpan, string dataEncryptionAlgorithmName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DecryptStreamWithTimestampValidation(this X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, TimeSpan lifeSpan, string dataEncryptionAlgorithmName = &quot;Aes&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,22 +241,22 @@ NOTE: The InputStream will be disposed at the end of this call.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">inputStream</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">outputStream</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="xref">System.TimeSpan</span></td>
         <td><span class="parametername">lifeSpan</span></td>
         <td></td>
       </tr>

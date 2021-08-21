@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/github/workspace/src/Org.Security.Cryptography.X509Extensions",
+  "source_base_path": "/home/runner/work/Org.Security.Cryptography.X509Extensions/Org.Security.Cryptography.X509Extensions/src/Org.Security.Cryptography.X509Extensions",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html",
-          "hash": "Bd48m78CNhDHphQLyLd+RA=="
+          "hash": "Kvv3Rpy12FYw9Ei1dXyp0TvuNBI+Fe3fzFccvxqp7J8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.html",
-          "hash": "OpcgXldMH53Bu+/pZbjINw=="
+          "hash": "5fLtYgz/5UdWd6Qhf31ot7uuV3XBbasfO3AUnKTCxJU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html",
-          "hash": "awNuDNbYdyjq1SnFzDCqwQ=="
+          "hash": "gD+En8z53O07R7+IdJJcj751Szuuj9xT78j269BOVHE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html",
-          "hash": "MCvbuG0PyyXGrcTVeEjLvQ=="
+          "hash": "CKyvPr0FMl51q+cvA4At9uBS+ucSBh1lqDH2QRcd8ZY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Security.Cryptography.X509SignatureExtensions.html",
-          "hash": "uxyR8Gl08/RxJXtjK4hGtQ=="
+          "hash": "4BpIu8WuCmzCTDDEJYstbszk9VzHrFnPNHxM4/iGsuQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Security.Cryptography.html",
-          "hash": "Vcw8ACRjsmKWFINUsZOtvg=="
+          "hash": "bwSZIyV2r+Dp267k8IBibNB1kd+m44Ed2uD7E/LczaY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "OwbrRWLUfeNp5eI3sSvd3g=="
+          "hash": "uAr/08/8YkZac+2UWmT4on8OQDqjyp+JgWNF65vtHYU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+KuTMh3I9towB1NgB4yIRQ=="
+          "hash": "ti9vFsBYVympNDJOYpRzZyTh7Vafp+qF3Cc3WVtwJhk="
         }
       },
       "is_incremental": false,
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "QzMe8VjU2wrtdTqTGFwFDA=="
+          "hash": "E5qk07mpcAgiUVfXsTkgakyHQ25yfz8Y7M0uQ4zGAn8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
         }
       },
       "is_incremental": false,
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "om0z4uxl0pApep5dCoA9Yg=="
+          "hash": "R0j0eM6fvP2ipKytAwtcuBLeHe5qB42yaHqfg+wG90o="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
         }
       },
       "is_incremental": false,
@@ -151,25 +151,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.58.0.0 to 2.56.7.0.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "DocfxVersionChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 0
+          "skipped_file_count": 6
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

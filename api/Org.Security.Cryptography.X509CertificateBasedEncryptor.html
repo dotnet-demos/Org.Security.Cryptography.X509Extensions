@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class X509CertificateBasedEncryptor
    ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,30 +80,54 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">X509CertificateBasedEncryptor</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Org.Security.Cryptography.html">Org.Security.Cryptography</a></h6>
   <h6><strong>Assembly</strong>: Org.Security.Cryptography.X509Extensions.dll</h6>
   <h5 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class X509CertificateBasedEncryptor : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class X509CertificateBasedEncryptor</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(X509Certificate2%2CStream%2CStream%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509CertificateBasedEncryptor.cs/#L47">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream*"></a>
-  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(X509Certificate2,Stream,Stream,System.String,System.Int32,System.Int32)">EncryptStream(X509Certificate2, Stream, Stream, String, Int32, Int32)</h4>
+  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStream(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String,System.Int32,System.Int32)">EncryptStream(X509Certificate2, Stream, Stream, String, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Encrypt input stream using the symmetric algorithm provided.
 The key of symmetric algorithm is encrypted using the Asymmetric algorithm available on the given certificate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void EncryptStream(X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, string dataEncryptionAlgorithmName = null, int keySize = null, int blockSize = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void EncryptStream(X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, string dataEncryptionAlgorithmName = &quot;Aes&quot;, int keySize = 256, int blockSize = 128)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,17 +140,17 @@ The key of symmetric algorithm is encrypted using the Asymmetric algorithm avail
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">inputStream</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">outputStream</span></td>
         <td></td>
       </tr>
@@ -147,19 +171,19 @@ The key of symmetric algorithm is encrypted using the Asymmetric algorithm avail
       </tr>
     </tbody>
   </table>
-  <h5 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32__remarks">Remarks</h5>
+  <h5 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStream_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The thumbprint of the certificate is attached as first thing in the encrypted data.
 Use this if decryptor doesn't know what certificate encryptor used. Mainly in internet/web/distributed systems scenarios where the certificate rotated out of sync.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(X509Certificate2%2CStream%2CStream%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509CertificateBasedEncryptor.cs/#L22">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp*"></a>
-  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_X509Certificate2_Stream_Stream_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(X509Certificate2,Stream,Stream,System.String,System.Int32,System.Int32)">EncryptStreamWithTimestamp(X509Certificate2, Stream, Stream, String, Int32, Int32)</h4>
+  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStreamWithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_IO_Stream_System_IO_Stream_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStreamWithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IO.Stream,System.IO.Stream,System.String,System.Int32,System.Int32)">EncryptStreamWithTimestamp(X509Certificate2, Stream, Stream, String, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Encrypt input stream using the symmetric algorithm provided.
 The key of symmetric algorithm is encrypted using the Asymmetric algorithm available on the given certificate.
 It writes the UTC timestamp of encryption. This can be used to validate during decryption to avoid replay attacks in client server scenarios.</p>
@@ -167,7 +191,7 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void EncryptStreamWithTimestamp(X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, string dataEncryptionAlgorithmName = null, int keySize = null, int blockSize = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void EncryptStreamWithTimestamp(X509Certificate2 x509Cert, Stream inputStream, Stream outputStream, string dataEncryptionAlgorithmName = &quot;Aes&quot;, int keySize = 256, int blockSize = 128)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,17 +204,17 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">inputStream</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">outputStream</span></td>
         <td></td>
       </tr>
@@ -213,18 +237,18 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_X509Certificate2_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(X509Certificate2%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509CertificateBasedEncryptor.cs/#L72">View Source</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509CertificateBasedEncryptor.cs/#L71">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64*"></a>
-  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_X509Certificate2_System_String_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(X509Certificate2,System.String,System.String,System.Int32,System.Int32)">EncryptStringToBase64(X509Certificate2, String, String, Int32, Int32)</h4>
+  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)">EncryptStringToBase64(X509Certificate2, String, String, Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string EncryptStringToBase64(X509Certificate2 x509Cert, string valueToEncode, string dataEncryptionAlgorithmName = null, int keySize = null, int blockSize = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public string EncryptStringToBase64(X509Certificate2 x509Cert, string valueToEncode, string dataEncryptionAlgorithmName = &quot;Aes&quot;, int keySize = 256, int blockSize = 128)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -237,7 +261,7 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
@@ -280,18 +304,18 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_X509Certificate2_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(X509Certificate2%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/blob/master/src/Org.Security.Cryptography.X509Extensions/X509CertificateBasedEncryptor.cs/#L88">View Source</a>
   </span>
   <a id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp*"></a>
-  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_X509Certificate2_System_String_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(X509Certificate2,System.String,System.String,System.Int32,System.Int32)">EncryptStringToBase64WithTimestamp(X509Certificate2, String, String, Int32, Int32)</h4>
+  <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)">EncryptStringToBase64WithTimestamp(X509Certificate2, String, String, Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string EncryptStringToBase64WithTimestamp(X509Certificate2 x509Cert, string valueToEncode, string dataEncryptionAlgorithmName = null, int keySize = null, int blockSize = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public string EncryptStringToBase64WithTimestamp(X509Certificate2 x509Cert, string valueToEncode, string dataEncryptionAlgorithmName = &quot;Aes&quot;, int keySize = 256, int blockSize = 128)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -304,7 +328,7 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">X509Certificate2</span></td>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
         <td><span class="parametername">x509Cert</span></td>
         <td></td>
       </tr>
