@@ -124,15 +124,51 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/simple-encryption.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/simple-encryption.html",
+          "hash": "RNy48pguvmR0kNUHW85MRix94iwFYKDZtj5U8eC+sLA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "OO0SOA7eOMhlk0LsA3Nw5IVTlwkKWM8N9/NToE56hA0="
+          "hash": "gccX6abSDng+puyGICuTnvGsJJ3i/2TBFT66uqevqdc="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/with-thumbprint.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/with-thumbprint.html",
+          "hash": "0fwsnkjFs5rgC7JZNUldk9rk5EGYAxjtuQ/eRqa3skU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/with-timestamp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/with-timestamp.html",
+          "hash": "heDF4t0WipQtcPLQr9SzSqAPKFD0KEsoGYGT9aqYkFY="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -172,8 +208,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 4
+          "total_file_count": 7,
+          "skipped_file_count": 7
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
