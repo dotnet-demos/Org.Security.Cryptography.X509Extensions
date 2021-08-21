@@ -244,7 +244,9 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
   </span>
   <a id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64*"></a>
   <h4 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_" data-uid="Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String,System.Int32,System.Int32)">EncryptStringToBase64(X509Certificate2, String, String, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Encrypt input string using the symmetric algorithm provided.
+The key of symmetric algorithm is encrypted using the Asymmetric algorithm available on the given <code data-dev-comment-type="paramref" class="paramref">x509Cert</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -298,10 +300,15 @@ It writes the UTC timestamp of encryption. This can be used to validate during d
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>The encrypted content in base64 format.</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The thumbprint of the certificate is attached as first thing in the encrypted data.
+Use this if decryptor doesn't know what certificate encryptor used. Mainly in internet/web/distributed systems scenarios where the certificate rotated out of sync.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/dotnet-demos/Org.Security.Cryptography.X509Extensions/new/master/apiSpec/new?filename=Org_Security_Cryptography_X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp_System_Security_Cryptography_X509Certificates_X509Certificate2_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Org.Security.Cryptography.X509CertificateBasedEncryptor.EncryptStringToBase64WithTimestamp(System.Security.Cryptography.X509Certificates.X509Certificate2%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
