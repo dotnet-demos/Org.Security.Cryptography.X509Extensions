@@ -4,12 +4,372 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Security.Cryptography.X509Certificate2StreamDecryptionExtensions.html",
+          "hash": "Bd48m78CNhDHphQLyLd+RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Security.Cryptography.X509Certificate2StreamEncryptionExtensions.html",
+          "hash": "OpcgXldMH53Bu+/pZbjINw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Security.Cryptography.X509CertificateBasedDecryptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html",
+          "hash": "awNuDNbYdyjq1SnFzDCqwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Security.Cryptography.X509CertificateBasedEncryptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Security.Cryptography.X509CertificateBasedEncryptor.html",
+          "hash": "MCvbuG0PyyXGrcTVeEjLvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Security.Cryptography.X509SignatureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Security.Cryptography.X509SignatureExtensions.html",
+          "hash": "uxyR8Gl08/RxJXtjK4hGtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Security.Cryptography.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Security.Cryptography.html",
+          "hash": "Vcw8ACRjsmKWFINUsZOtvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.X509Certificate2_DecryptStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.X509Certificate2_DecryptStream.html",
+          "hash": "AlCGKQk0U8tJETLnQeXJLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.X509Certificate2_DecryptStream_PerfTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.X509Certificate2_DecryptStream_PerfTests.html",
+          "hash": "nh8yMX1Y5VACaw4QRdgsZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptBase64EncodedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptBase64EncodedString.html",
+          "hash": "26gVx7u2CNw5uqNhbFLB7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptBase64EncodedStringWithTimestampValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptBase64EncodedStringWithTimestampValidation.html",
+          "hash": "bIS8OXMX0Kezk2rpOOrsTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptStream.html",
+          "hash": "vb9HLcNo6m/i4ipPG2cJ+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptStreamWithTimestampValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.X509CertificateBasedDecryptor_DecryptStreamWithTimestampValidation.html",
+          "hash": "RZ3zA2muAJXZJfb6aa/MUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Decryption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Decryption.html",
+          "hash": "1U7wxQCxfk012HA4jVoK9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.X509Certificate2_EncryptStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.X509Certificate2_EncryptStream.html",
+          "hash": "fetpuJ+n5b9EXIXRF6obPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.X509Certificate2_EncryptStream_PerfTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.X509Certificate2_EncryptStream_PerfTests.html",
+          "hash": "c2RdO2nrc1IF9RSAcor6og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStream.html",
+          "hash": "NpLTggNk/Au/BIec97MSng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStreamWithTimestamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStreamWithTimestamp.html",
+          "hash": "8Fc7OFaOPXcdaubbtoBb4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStringToBase64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStringToBase64.html",
+          "hash": "Oov61hGpZF+8eKftIzdj9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.X509CertificateBasedEncryptor_EncryptStringToBase64WithTimestamp.html",
+          "hash": "hpJTzmbRw1bf3YMBtvbxDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Encryption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Encryption.html",
+          "hash": "VxwnMfJbRbcTj7JLd3npUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Signature.X509SignatureTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Signature.X509SignatureTests.html",
+          "hash": "xSl1ciYsrOn5eTDAhFnJAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.Signature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.Signature.html",
+          "hash": "iuFexffRrinh2u/tuKIwBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.X509Certificate2_EncryptStream_DecryptStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.X509Certificate2_EncryptStream_DecryptStream.html",
+          "hash": "zlv+DaruLhQZCR2eHHToYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTests.html",
+          "hash": "+Rdet+c/1sTRxTWMipMLFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/X509.EnduranceTest.Shared.CertificateLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/X509.EnduranceTest.Shared.CertificateLoader.html",
+          "hash": "hCvdN//5H4FumKfdTmyAaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/X509.EnduranceTest.Shared.TestDataGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/X509.EnduranceTest.Shared.TestDataGenerator.html",
+          "hash": "kmVhDczHVpdVwIvvkSX16Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/X509.EnduranceTest.Shared.TestMain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/X509.EnduranceTest.Shared.TestMain.html",
+          "hash": "4KyG22G1NAVYVq+8IgZNNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/X509.EnduranceTest.Shared.X509CertificateCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/X509.EnduranceTest.Shared.X509CertificateCache.html",
+          "hash": "rWQwSzTXY16YrA1Q+7BRVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/X509.EnduranceTest.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/X509.EnduranceTest.Shared.html",
+          "hash": "OlKHE4b7dkUBlhQZcNFMkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Bo/RL2ejqkC3a6Qst6vUUA=="
+          "hash": "OwbrRWLUfeNp5eI3sSvd3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "7azVqv4l7a91qqO8gYDggA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "IGK1ZSYI4NbShXZSeUUd6Q=="
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
         }
       },
       "is_incremental": false,
@@ -79,6 +439,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 29,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
