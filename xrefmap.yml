@@ -95,6 +95,15 @@ references:
   fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2))
   nameWithType: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(String, Func<String, X509Certificate2>)
   nameWithType.vb: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(String, Func(Of String, X509Certificate2))
+- uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.TimeSpan,System.String)
+  name: DecryptBase64EncodedStringWithTimestampValidation(String, Func<String, X509Certificate2>, TimeSpan, String)
+  href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptBase64EncodedStringWithTimestampValidation_System_String_System_Func_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__System_TimeSpan_System_String_
+  commentId: M:Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String,System.Func{System.String,System.Security.Cryptography.X509Certificates.X509Certificate2},System.TimeSpan,System.String)
+  name.vb: DecryptBase64EncodedStringWithTimestampValidation(String, Func(Of String, X509Certificate2), TimeSpan, String)
+  fullName: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, System.Func<System.String, System.Security.Cryptography.X509Certificates.X509Certificate2>, System.TimeSpan, System.String)
+  fullName.vb: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(System.String, System.Func(Of System.String, System.Security.Cryptography.X509Certificates.X509Certificate2), System.TimeSpan, System.String)
+  nameWithType: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(String, Func<String, X509Certificate2>, TimeSpan, String)
+  nameWithType.vb: X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation(String, Func(Of String, X509Certificate2), TimeSpan, String)
 - uid: Org.Security.Cryptography.X509CertificateBasedDecryptor.DecryptBase64EncodedStringWithTimestampValidation*
   name: DecryptBase64EncodedStringWithTimestampValidation
   href: api/Org.Security.Cryptography.X509CertificateBasedDecryptor.html#Org_Security_Cryptography_X509CertificateBasedDecryptor_DecryptBase64EncodedStringWithTimestampValidation_
